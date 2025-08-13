@@ -1,0 +1,31 @@
+
+name: Update README from progress.csv
+on:
+  push:
+    paths:
+      - "progress/progress.csv"
+      - "scripts/update_readme.py"
+      - "README.md"
+  schedule:
+    - cron: "0 14 * * *"  # 23:00 JST
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/update_readme.py
+      - name: Commit & Push
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update README progress [skip ci]"
+            git push
+          else
+            echo "No changes to commit."

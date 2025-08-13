@@ -1,0 +1,32 @@
+
+name: Daily Log
+description: 100日チャレンジのデイリーログを記録する
+title: "Day: <番号> - 学習ログ"
+labels: ["daily-log"]
+body:
+  - type: input
+    id: day
+    attributes:
+      label: Day 番号
+      description: 1〜100 のいずれか
+      placeholder: "例) 1"
+    validations:
+      required: true
+  - type: textarea
+    id: did
+    attributes:
+      label: 学習内容
+      description: 何を学んだか、何を作ったか
+      placeholder: 例) Pandas の groupby を使って集計。Kaggle Titanic の前処理まで完了、など
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: 学習時間
+      placeholder: "例) 90分"
+  - type: textarea
+    id: notes
+    attributes:
+      label: メモ
+      placeholder: 詰まった点、明日のTODOなど
