@@ -1,5 +1,5 @@
 Day,Phase,Theme,Date,Done,Notes
-1,基礎強化,開発環境準備（Anaconda / Jupyter / VSCode）,2025-08-13,TRUE,Miniconda/JupyterLab/VSCode セットアップ完了
+1,基礎強化,開発環境準備（Anaconda / Jupyter / VSCode）,2025-08-13,TRUE,Miniconda/JupyterLab/VSCode セットアップの完了
 2,基礎強化,Numpy基礎（配列・行列操作）,,FALSE,
 3,基礎強化,Pandas基礎①（DataFrame操作）,,FALSE,
 4,基礎強化,Pandas基礎②（データクリーニング）,,FALSE,
