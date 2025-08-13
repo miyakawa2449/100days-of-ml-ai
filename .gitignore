@@ -46,7 +46,6 @@ site/
 node_modules/
 *.rpt
 *.dat
-*.csv
 *.tsv
 *.xlsx
 *.xls
