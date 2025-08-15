@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 def create_project(project_name):
-    """指定したフォルダに空のmain.pyとREADME.mdを作成する"""
+    """指定したフォルダに空のREADME.mdを作成する"""
     
     project_dir = Path(project_name)
     
@@ -15,10 +15,6 @@ def create_project(project_name):
     try:
         project_dir.mkdir()
         print(f"フォルダ '{project_name}' を作成しました。")
-        
-        main_py = project_dir / "main.py"
-        main_py.write_text("")
-        print(f"{main_py} を作成しました。")
         
         readme_content = f"""# {project_name}
 ## アプリケーション名
