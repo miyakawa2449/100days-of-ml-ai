@@ -1,7 +1,7 @@
 Day,Phase,Theme,Date,Done,Notes
 1,基礎強化,開発環境準備（Anaconda / Jupyter / VSCode）,2025-08-13,TRUE,Miniconda/JupyterLab/VSCode セットアップの完了
 2,基礎強化,Numpy基礎（配列・行列操作）,2025-08-14,TRUE,NumPyの基本操作を学習
-3,基礎強化,Pandas基礎①（DataFrame操作）,,FALSE,
+3,基礎強化,Pandas基礎①（DataFrame操作）,2025-08-15,TRUE,Pandas基礎①（DataFrame操作）を学習。Excelユーザー向けのシンプル版も作成
 4,基礎強化,Pandas基礎②（データクリーニング）,,FALSE,
 5,基礎強化,Matplotlib/Seaborn（データ可視化）,,FALSE,
 6,基礎強化,データ型と欠損値処理,,FALSE,
