@@ -64,3 +64,6 @@ node_modules/
 *.pt
 *.model
 *.weights
+
+# AI開発支援ファイル
+CLAUDE.md
