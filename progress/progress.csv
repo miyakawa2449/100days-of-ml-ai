@@ -3,7 +3,7 @@ Day,Phase,Theme,Date,Done,Notes
 2,基礎強化,Numpy基礎（配列・行列操作）,2025-08-14,TRUE,NumPyの基本操作を学習
 3,基礎強化,Pandas基礎①（DataFrame操作）,2025-08-15,TRUE,Pandas基礎①（DataFrame操作）を学習。Excelユーザー向けのシンプル版も作成
 4,基礎強化,Pandas基礎②（データクリーニング）,2025-08-16,TRUE,Pandas基礎② - データクリーニング（シンプル版）完了。基本的なデータ前処理手法を学習。明日より詳細版を実施予定。
-5,基礎強化,Matplotlib/Seaborn（データ可視化）,,FALSE,
+5,基礎強化,Matplotlib/Seaborn（データ可視化）,2025-08-17,TRUE,Matplotlib/Seaborn基礎 - データ可視化の基本グラフ作成、日本語表示問題を解決
 6,基礎強化,データ型と欠損値処理,,FALSE,
 7,基礎強化,統計基礎①（平均・分散・標準偏差）,,FALSE,
 8,基礎強化,統計基礎②（確率・分布）,,FALSE,
